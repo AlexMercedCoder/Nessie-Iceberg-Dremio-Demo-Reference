@@ -8,6 +8,10 @@ Open your terminal to the directory with the docker-compose.yml
 
 `docker compose up`
 
+to run latest version of nessie run
+
+`docker compose -f latest-nessie.docker-compose.yml up`
+
 **Optional:** install the nessie cli with `pip install pynessie`
 
 #### Step 2 - Open up Iceberg-Spark Container
